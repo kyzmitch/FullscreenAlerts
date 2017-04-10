@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76486311E9BF62C00F870A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486301E9BF62C00F870A1 /* main.m */; };
+		C76486341E9BF62C00F870A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486331E9BF62C00F870A1 /* AppDelegate.m */; };
+		C76486371E9BF62C00F870A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486361E9BF62C00F870A1 /* ViewController.m */; };
+		C764863A1E9BF62C00F870A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76486381E9BF62C00F870A1 /* Main.storyboard */; };
+		C764863C1E9BF62C00F870A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C764863B1E9BF62C00F870A1 /* Assets.xcassets */; };
+		C764863F1E9BF62C00F870A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C764863D1E9BF62C00F870A1 /* LaunchScreen.storyboard */; };
+		C76486541E9BF66100F870A1 /* BaseFullscreenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486481E9BF66100F870A1 /* BaseFullscreenAlertView.m */; };
+		C76486551E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = C764864A1E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.m */; };
+		C76486561E9BF66100F870A1 /* ErrorAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C764864C1E9BF66100F870A1 /* ErrorAlertView.m */; };
+		C76486571E9BF66100F870A1 /* FSAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C764864E1E9BF66100F870A1 /* FSAConstants.m */; };
+		C76486581E9BF66100F870A1 /* FSAViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486501E9BF66100F870A1 /* FSAViewPresenter.m */; };
+		C76486591E9BF66100F870A1 /* FSAViewsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C76486531E9BF66100F870A1 /* FSAViewsFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C764862C1E9BF62C00F870A1 /* FullscreenAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76486301E9BF62C00F870A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76486321E9BF62C00F870A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76486331E9BF62C00F870A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76486351E9BF62C00F870A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C76486361E9BF62C00F870A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C76486391E9BF62C00F870A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C764863B1E9BF62C00F870A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C764863E1E9BF62C00F870A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C76486401E9BF62C00F870A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76486471E9BF66100F870A1 /* BaseFullscreenAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseFullscreenAlertView.h; path = ../../BaseFullscreenAlertView.h; sourceTree = "<group>"; };
+		C76486481E9BF66100F870A1 /* BaseFullscreenAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseFullscreenAlertView.m; path = ../../BaseFullscreenAlertView.m; sourceTree = "<group>"; };
+		C76486491E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseFullscreenAlertWithLogo.h; path = ../../BaseFullscreenAlertWithLogo.h; sourceTree = "<group>"; };
+		C764864A1E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseFullscreenAlertWithLogo.m; path = ../../BaseFullscreenAlertWithLogo.m; sourceTree = "<group>"; };
+		C764864B1E9BF66100F870A1 /* ErrorAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorAlertView.h; path = ../../ErrorAlertView.h; sourceTree = "<group>"; };
+		C764864C1E9BF66100F870A1 /* ErrorAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorAlertView.m; path = ../../ErrorAlertView.m; sourceTree = "<group>"; };
+		C764864D1E9BF66100F870A1 /* FSAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAConstants.h; path = ../../FSAConstants.h; sourceTree = "<group>"; };
+		C764864E1E9BF66100F870A1 /* FSAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSAConstants.m; path = ../../FSAConstants.m; sourceTree = "<group>"; };
+		C764864F1E9BF66100F870A1 /* FSAViewPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAViewPresenter.h; path = ../../FSAViewPresenter.h; sourceTree = "<group>"; };
+		C76486501E9BF66100F870A1 /* FSAViewPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSAViewPresenter.m; path = ../../FSAViewPresenter.m; sourceTree = "<group>"; };
+		C76486511E9BF66100F870A1 /* FSAViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAViewProtocol.h; path = ../../FSAViewProtocol.h; sourceTree = "<group>"; };
+		C76486521E9BF66100F870A1 /* FSAViewsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAViewsFactory.h; path = ../../FSAViewsFactory.h; sourceTree = "<group>"; };
+		C76486531E9BF66100F870A1 /* FSAViewsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSAViewsFactory.m; path = ../../FSAViewsFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76486291E9BF62C00F870A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76486231E9BF62C00F870A1 = {
+			isa = PBXGroup;
+			children = (
+				C76486461E9BF63F00F870A1 /* Library */,
+				C764862E1E9BF62C00F870A1 /* FullscreenAlertDemo */,
+				C764862D1E9BF62C00F870A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C764862D1E9BF62C00F870A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C764862C1E9BF62C00F870A1 /* FullscreenAlertDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C764862E1E9BF62C00F870A1 /* FullscreenAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C76486321E9BF62C00F870A1 /* AppDelegate.h */,
+				C76486331E9BF62C00F870A1 /* AppDelegate.m */,
+				C76486351E9BF62C00F870A1 /* ViewController.h */,
+				C76486361E9BF62C00F870A1 /* ViewController.m */,
+				C76486381E9BF62C00F870A1 /* Main.storyboard */,
+				C764863B1E9BF62C00F870A1 /* Assets.xcassets */,
+				C764863D1E9BF62C00F870A1 /* LaunchScreen.storyboard */,
+				C76486401E9BF62C00F870A1 /* Info.plist */,
+				C764862F1E9BF62C00F870A1 /* Supporting Files */,
+			);
+			path = FullscreenAlertDemo;
+			sourceTree = "<group>";
+		};
+		C764862F1E9BF62C00F870A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76486301E9BF62C00F870A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76486461E9BF63F00F870A1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C76486471E9BF66100F870A1 /* BaseFullscreenAlertView.h */,
+				C76486481E9BF66100F870A1 /* BaseFullscreenAlertView.m */,
+				C76486491E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.h */,
+				C764864A1E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.m */,
+				C764864B1E9BF66100F870A1 /* ErrorAlertView.h */,
+				C764864C1E9BF66100F870A1 /* ErrorAlertView.m */,
+				C764864D1E9BF66100F870A1 /* FSAConstants.h */,
+				C764864E1E9BF66100F870A1 /* FSAConstants.m */,
+				C764864F1E9BF66100F870A1 /* FSAViewPresenter.h */,
+				C76486501E9BF66100F870A1 /* FSAViewPresenter.m */,
+				C76486511E9BF66100F870A1 /* FSAViewProtocol.h */,
+				C76486521E9BF66100F870A1 /* FSAViewsFactory.h */,
+				C76486531E9BF66100F870A1 /* FSAViewsFactory.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C764862B1E9BF62C00F870A1 /* FullscreenAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76486431E9BF62C00F870A1 /* Build configuration list for PBXNativeTarget "FullscreenAlertDemo" */;
+			buildPhases = (
+				C76486281E9BF62C00F870A1 /* Sources */,
+				C76486291E9BF62C00F870A1 /* Frameworks */,
+				C764862A1E9BF62C00F870A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullscreenAlertDemo;
+			productName = FullscreenAlertDemo;
+			productReference = C764862C1E9BF62C00F870A1 /* FullscreenAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76486241E9BF62C00F870A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kyzmitch;
+				TargetAttributes = {
+					C764862B1E9BF62C00F870A1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C76486271E9BF62C00F870A1 /* Build configuration list for PBXProject "FullscreenAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76486231E9BF62C00F870A1;
+			productRefGroup = C764862D1E9BF62C00F870A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C764862B1E9BF62C00F870A1 /* FullscreenAlertDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C764862A1E9BF62C00F870A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764863F1E9BF62C00F870A1 /* LaunchScreen.storyboard in Resources */,
+				C764863C1E9BF62C00F870A1 /* Assets.xcassets in Resources */,
+				C764863A1E9BF62C00F870A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76486281E9BF62C00F870A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76486591E9BF66100F870A1 /* FSAViewsFactory.m in Sources */,
+				C76486371E9BF62C00F870A1 /* ViewController.m in Sources */,
+				C76486571E9BF66100F870A1 /* FSAConstants.m in Sources */,
+				C76486581E9BF66100F870A1 /* FSAViewPresenter.m in Sources */,
+				C76486541E9BF66100F870A1 /* BaseFullscreenAlertView.m in Sources */,
+				C76486341E9BF62C00F870A1 /* AppDelegate.m in Sources */,
+				C76486311E9BF62C00F870A1 /* main.m in Sources */,
+				C76486561E9BF66100F870A1 /* ErrorAlertView.m in Sources */,
+				C76486551E9BF66100F870A1 /* BaseFullscreenAlertWithLogo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C76486381E9BF62C00F870A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76486391E9BF62C00F870A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C764863D1E9BF62C00F870A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C764863E1E9BF62C00F870A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76486411E9BF62C00F870A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C76486421E9BF62C00F870A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76486441E9BF62C00F870A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullscreenAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyzmitch.FullscreenAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76486451E9BF62C00F870A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FullscreenAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyzmitch.FullscreenAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76486271E9BF62C00F870A1 /* Build configuration list for PBXProject "FullscreenAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76486411E9BF62C00F870A1 /* Debug */,
+				C76486421E9BF62C00F870A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76486431E9BF62C00F870A1 /* Build configuration list for PBXNativeTarget "FullscreenAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76486441E9BF62C00F870A1 /* Debug */,
+				C76486451E9BF62C00F870A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76486241E9BF62C00F870A1 /* Project object */;
+}
